@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Horizon - Reading the Wind</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        .book-details {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+        }
+
+        .book-cover-large {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        }
+
+        .book-info {
+            line-height: 1.8;
+        }
+
+        .book-info h2 {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+
+        .price {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            font-weight: bold;
+            margin: 1rem 0;
+        }
+
+        .buy-links {
+            display: flex;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .buy-btn {
+            padding: 0.8rem 1.5rem;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .buy-btn:hover {
+            background-color: #15395c;
+        }
+
+        @media (max-width: 768px) {
+            .book-details {
+                grid-template-columns: 1fr;
+            }
+            
+            .book-cover-large {
+                margin: 0 auto;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Reading the Wind</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>The Last Horizon</h1>
+            <p>A tale of adventure and discovery across the Pacific</p>
+        </section>
+
+        <section class="book-details">
+            <div class="book-cover">
+                <img src="images/book1-cover.jpg" alt="The Last Horizon Cover" class="book-cover-large">
+            </div>
+            <div class="book-info">
+                <h2>About the Book</h2>
+                <p>In "The Last Horizon," readers are taken on an unforgettable journey across the vast Pacific Ocean. The story follows Sarah Mitchell, a seasoned sailor who embarks on a solo voyage from San Francisco to Hawaii, seeking answers to questions that have haunted her for years.</p>
+                
+                <p>As she navigates through treacherous waters and faces the challenges of isolation, Sarah discovers that the greatest journey is the one within. The novel masterfully weaves together elements of adventure, self-discovery, and the raw beauty of the open sea.</p>
+                
+                <p>Drawing from real sailing experiences and maritime knowledge, the author creates an authentic and immersive world that will captivate both sailing enthusiasts and general readers alike.</p>
+                
+                <div class="price">$24.99</div>
+                
+                <div class="buy-links">
+                    <a href="#" class="buy-btn">Buy on Amazon</a>
+                    <a href="#" class="buy-btn">Buy on Barnes & Noble</a>
+                </div>
+                
+                <h3>Book Details</h3>
+                <ul>
+                    <li>Paperback: 320 pages</li>
+                    <li>Publisher: Reading the Wind Press</li>
+                    <li>Language: English</li>
+                    <li>ISBN: 978-1-234567-89-0</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Reading the Wind. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
