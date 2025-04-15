@@ -41,9 +41,15 @@ nav {
 }
 
 .logo {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Baloo 2', cursive;
     font-size: 1.5rem;
-    color: var(--primary-color);
+    color: #2ecc71;
+    text-transform: lowercase;
+}
+
+.logo a {
+    color: #2ecc71;
+    text-decoration: none;
 }
 
 nav ul {
